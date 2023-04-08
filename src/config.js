@@ -2796,11 +2796,87 @@ query: '(nwr["leisure"="playground"][!"playground"]({{bbox}});node(w););out meta
 				return style;
 			}
  },
+			
+{
+			group: 'Generic',
+			title: 'Baby (yes)',
+			query: '(nwr["baby"="yes"]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			style: function (feature) {
+				var key_regex = /^name$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba( 255, 165, 250 ,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: 'rgba( 255, 165, 250 ,1)',
+					width: 1
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name,
+								offsetX : 0,
+								offsetY : 20,
+								fill: new ol.style.Fill({
+                            color: 'rgba(0,0,0,1)'
+                        }),
+						}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+ },
+			
+{
+			group: 'Generic',
+			title: 'Baby (no)',
+			query: '(nwr["baby"="no"]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			style: function (feature) {
+				var key_regex = /^name$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba( 255, 165, 250 ,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: 'rgba( 255, 165, 250 ,1)',
+					width: 1
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name,
+								offsetX : 0,
+								offsetY : 20,
+								fill: new ol.style.Fill({
+                            color: 'rgba(0,0,0,1)'
+                        }),
+						}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+ },
 
 
 		{
-			group: 'Shop',
-			title: 'Baby',
+			group: 'Generic',
+			title: 'Shop=baby_goods',
 			query: '(nwr["shop"="baby_goods"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
 			iconStyle: 'background-color:rgba(255,255,255,0.4)',
