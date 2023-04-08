@@ -220,16 +220,16 @@ var config = {
 			title: 'No',
 			query: '(nwr["baby_feeding"="no"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba(0,255,0,1)',
+			iconStyle: 'background-color:rgba( 206, 9, 9 ,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba(0,255,0,0.4)'
+					color: 'rgba( 206, 9, 9 ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba(0,255,0,1)',
+					color: 'rgba( 206, 9, 9 ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -258,16 +258,16 @@ var config = {
 			title: 'Room',
 			query: '(nwr["baby_feeding"="room"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba(0,255,0,1)',
+			iconStyle: 'background-color:rgba(147, 229, 255,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba(0,255,0,0.4)'
+					color: 'rgba(147, 229, 255,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba(0,255,0,1)',
+					color: 'rgba(147, 229, 255,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -296,16 +296,16 @@ var config = {
 			title: 'Lactation',
 			query: '(nwr["baby_feeding"="lactation"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba(0,255,0,1)',
+			iconStyle: 'background-color:rgba(202, 147, 255,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba(0,255,0,0.4)'
+					color: 'rgba(202, 147, 255,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba(0,255,0,1)',
+					color: 'rgba(202, 147, 255,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -334,16 +334,16 @@ var config = {
 			title: 'No info',
 			query: '(nwr[amenity][!"baby_feeding"]({{bbox}});node(w);nwr[shop][!"baby_feeding"]({{bbox}});node(w);nwr[office][!"baby_feeding"]({{bbox}});node(w);nwr[tourism][!"baby_feeding"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba(0,255,0,1)',
+			iconStyle: 'background-color:rgba( 194, 194, 194 ,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba(0,255,0,0.4)'
+					color: 'rgba( 194, 194, 194 ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba(0,255,0,1)',
+					color: 'rgba( 194, 194, 194 ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
