@@ -712,7 +712,7 @@ var config = {
 {
 			group: 'Changing_table',
 			title: 'Changing table fee ?',
-			query: '(nwr[changing_table][!"changing_table:fee]({{bbox}});node(w););out meta;',
+			query: '(nwr[changing_table][!"changing_table:fee"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
 			style: function (feature) {
@@ -1016,7 +1016,7 @@ var config = {
 {
 			group: 'Changing_table',
 			title: 'Changing table location ?',
-query: '(nwr[changing_table][!"changing_table:location]({{bbox}});node(w););out meta;',
+query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
 			style: function (feature) {
