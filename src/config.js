@@ -859,12 +859,7 @@ var config = {
 				});
 				return style;
 			}
-			
-}
-
  },
- 
-
 			
 {
 			group: 'Changing_table',
@@ -902,12 +897,7 @@ var config = {
 				});
 				return style;
 			}
-			
-}
-
  },
- 
-
 			
 {
 			group: 'Changing_table',
@@ -945,12 +935,7 @@ var config = {
 				});
 				return style;
 			}
-			
-}
-
  },
- 
-
 			
 {
 			group: 'Changing_table',
@@ -988,12 +973,7 @@ var config = {
 				});
 				return style;
 			}
-			
-}
-
  },
- 
-
 			
 {
 			group: 'Changing_table',
@@ -1031,9 +1011,6 @@ var config = {
 				});
 				return style;
 			}
-			
-}
-
  },
 			
 {
