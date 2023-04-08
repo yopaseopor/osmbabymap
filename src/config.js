@@ -1394,7 +1394,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
  },
 			
 {
-			group: 'Leisure (stationary)',
+			group: 'Playground (stationary)',
 			title: 'Playground',
 			query: '(nwr["leisure"="playground"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1432,7 +1432,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
  },
 			
 {
-			group: 'Leisure (stationary)',
+			group: 'Playground (stationary)',
 			title: 'Structure',
 			query: '(nwr["playground"="structure"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1470,7 +1470,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
  },
 			
 {
-			group: 'Leisure (stationary)',
+			group: 'Playground (stationary)',
 			title: 'Slide',
 			query: '(nwr["playground"="slide"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1508,7 +1508,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
  },
 			
 {
-			group: 'Leisure (stationary)',
+			group: 'Playground (stationary)',
 			title: 'Climbingframe',
 			query: '(nwr["playground"="climbingframe"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1546,7 +1546,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
  },
 			
 {
-			group: 'Leisure (stationary)',
+			group: 'Playground (stationary)',
 			title: 'Climbing wall',
 			query: '(nwr["playground"="climbingwall"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1584,7 +1584,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
  },
 			
 {
-			group: 'Leisure (stationary)',
+			group: 'Playground (stationary)',
 			title: 'Balance beam',
 			query: '(nwr["playground"="balancebeam"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1622,7 +1622,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
  },
 			
 {
-			group: 'Leisure (stationary)',
+			group: 'Playground (stationary)',
 			title: 'Playhouse',
 			query: '(nwr["playground"="playhouse"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1660,7 +1660,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
  },
 			
 {
-			group: 'Leisure (stationary)',
+			group: 'Playground (stationary)',
 			title: 'Sand pit',
 			query: '(nwr["playground"="sandpit"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1698,7 +1698,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
  },
 			
 {
-			group: 'Leisure (stationary)',
+			group: 'Playground (stationary)',
 			title: 'Hopscotch',
 			query: '(nwr["playground"="hopscotch"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1736,7 +1736,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
  },
 			
 {
-			group: 'Leisure (stationary)',
+			group: 'Playground (stationary)',
 			title: 'Teenshelter',
 			query: '(nwr["playground"="teenshelter"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1774,7 +1774,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
  },
 			
 {
-			group: 'Leisure (stationary)',
+			group: 'Playground (stationary)',
 			title: 'Sledding',
 			query: '(nwr["playground"="sledding"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1812,7 +1812,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
  },
 			
 {
-			group: 'Leisure (stationary)',
+			group: 'Playground (stationary)',
 			title: 'Youth bench',
 			query: '(nwr["playground"="youth_bench"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1850,7 +1850,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
  },
 			
 {
-			group: 'Leisure (stationary)',
+			group: 'Playground (stationary)',
 			title: 'Map',
 			query: '(nwr["playground"="map"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1888,7 +1888,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
  },
 			
 {
-			group: 'Leisure (stationary)',
+			group: 'Playground (stationary)',
 			title: 'Bridge',
 			query: '(nwr["playground"="bridge"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1926,7 +1926,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
  },
 			
 {
-			group: 'Leisure (stationary)',
+			group: 'Playground (stationary)',
 			title: 'Funnel_ball',
 			query: '(nwr["playground"="funnel_ball"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1964,7 +1964,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
  },
 			
 {
-			group: 'Leisure (stationary)',
+			group: 'Playground (stationary)',
 			title: 'Tunnel tube',
 			query: '(nwr["playground"="tunnel_tube"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -2002,7 +2002,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
  },
 			
 {
-			group: 'Leisure (stationary)',
+			group: 'Playground (stationary)',
 			title: 'Speaking tube',
 			query: '(nwr["playground"="speaking_tube"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -2040,7 +2040,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
  },
 			
 {
-			group: 'Leisure (stationary)',
+			group: 'Playground (stationary)',
 			title: 'Ball pool',
 			query: '(nwr["playground"="ball_pool"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -2075,9 +2075,85 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 				});
 				return style;
 			}
- },		
+ },
+			
 {
-			group: 'Leisure (stationary)',
+			group: 'Playground (stationary)',
+			title: 'Activity panel',
+			query: '(nwr["playground"="activitypanel"]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			style: function (feature) {
+				var key_regex = /^name$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba( 255, 165, 250 ,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: 'rgba( 255, 165, 250 ,1)',
+					width: 1
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name,
+								offsetX : 0,
+								offsetY : 20,
+								fill: new ol.style.Fill({
+                            color: 'rgba(0,0,0,1)'
+                        }),
+						}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+ },
+			
+{
+			group: 'Playground (stationary)',
+			title: 'Horizontal bar',
+			query: '(nwr["playground"="horizontal_bar"]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			style: function (feature) {
+				var key_regex = /^name$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba( 255, 165, 250 ,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: 'rgba( 255, 165, 250 ,1)',
+					width: 1
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name,
+								offsetX : 0,
+								offsetY : 20,
+								fill: new ol.style.Fill({
+                            color: 'rgba(0,0,0,1)'
+                        }),
+						}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+ },
+{
+			group: 'Playground (stationary)',
 			title: 'Playground + ?',
 query: '(nwr["leisure"="playground"][!"playground"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -2115,7 +2191,7 @@ query: '(nwr["leisure"="playground"][!"playground"]({{bbox}});node(w););out meta
  },
 			
 {
-			group: 'Leisure (motion)',
+			group: 'Playground (motion)',
 			title: 'Playground',
 			query: '(nwr["leisure"="playground"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -2153,7 +2229,7 @@ query: '(nwr["leisure"="playground"][!"playground"]({{bbox}});node(w););out meta
  },
 			
 {
-			group: 'Leisure (motion)',
+			group: 'Playground (motion)',
 			title: 'Swing',
 			query: '(nwr["playground"="swing"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -2191,7 +2267,7 @@ query: '(nwr["leisure"="playground"][!"playground"]({{bbox}});node(w););out meta
  },
 			
 {
-			group: 'Leisure (motion)',
+			group: 'Playground (motion)',
 			title: 'Spinning circle',
 			query: '(nwr["playground"="spinning_circle"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -2229,7 +2305,7 @@ query: '(nwr["leisure"="playground"][!"playground"]({{bbox}});node(w););out meta
  },
 			
 {
-			group: 'Leisure (motion)',
+			group: 'Playground (motion)',
 			title: 'Basket swing',
 			query: '(nwr["playground"="basketswing"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -2267,7 +2343,7 @@ query: '(nwr["leisure"="playground"][!"playground"]({{bbox}});node(w););out meta
  },
 			
 {
-			group: 'Leisure (motion)',
+			group: 'Playground (motion)',
 			title: 'Basket rotator',
 			query: '(nwr["playground"="basketrotator"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -2305,7 +2381,7 @@ query: '(nwr["leisure"="playground"][!"playground"]({{bbox}});node(w););out meta
  },
 			
 {
-			group: 'Leisure (motion)',
+			group: 'Playground (motion)',
 			title: 'Aerial rotator',
 			query: '(nwr["playground"="aerialrotator"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -2343,7 +2419,7 @@ query: '(nwr["leisure"="playground"][!"playground"]({{bbox}});node(w););out meta
  },
 			
 {
-			group: 'Leisure (motion)',
+			group: 'Playground (motion)',
 			title: 'Seesaw',
 			query: '(nwr["playground"="seesaw"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -2381,7 +2457,7 @@ query: '(nwr["leisure"="playground"][!"playground"]({{bbox}});node(w););out meta
  },
 			
 {
-			group: 'Leisure (motion)',
+			group: 'Playground (motion)',
 			title: 'Springy',
 			query: '(nwr["playground"="springy"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -2419,7 +2495,7 @@ query: '(nwr["leisure"="playground"][!"playground"]({{bbox}});node(w););out meta
  },
 			
 {
-			group: 'Leisure (motion)',
+			group: 'Playground (motion)',
 			title: 'Trampoline',
 			query: '(nwr["playground"="trampoline"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -2457,7 +2533,7 @@ query: '(nwr["leisure"="playground"][!"playground"]({{bbox}});node(w););out meta
  },
 			
 {
-			group: 'Leisure (motion)',
+			group: 'Playground (motion)',
 			title: 'Roundabout',
 			query: '(nwr["playground"="roundabout"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -2495,7 +2571,7 @@ query: '(nwr["leisure"="playground"][!"playground"]({{bbox}});node(w););out meta
  },
 			
 {
-			group: 'Leisure (motion)',
+			group: 'Playground (motion)',
 			title: 'Cushion',
 			query: '(nwr["playground"="cushion"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -2533,7 +2609,45 @@ query: '(nwr["leisure"="playground"][!"playground"]({{bbox}});node(w););out meta
  },
 			
 {
-			group: 'Leisure (motion)',
+			group: 'Playground (motion)',
+			title: 'Exercise',
+			query: '(nwr["playground"="exercise"]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			style: function (feature) {
+				var key_regex = /^name$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba( 255, 165, 250 ,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: 'rgba( 255, 165, 250 ,1)',
+					width: 1
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name,
+								offsetX : 0,
+								offsetY : 20,
+								fill: new ol.style.Fill({
+                            color: 'rgba(0,0,0,1)'
+                        }),
+						}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+ },
+			
+{
+			group: 'Playground (motion)',
 			title: 'Zipwire',
 			query: '(nwr["playground"="zipwire"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -2568,9 +2682,85 @@ query: '(nwr["leisure"="playground"][!"playground"]({{bbox}});node(w););out meta
 				});
 				return style;
 			}
- },		
+ },
+			
 {
-			group: 'Leisure (motion)',
+			group: 'Playground (motion)',
+			title: 'Splash pad',
+			query: '(nwr["playground"="splash_pad"]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			style: function (feature) {
+				var key_regex = /^name$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba( 255, 165, 250 ,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: 'rgba( 255, 165, 250 ,1)',
+					width: 1
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name,
+								offsetX : 0,
+								offsetY : 20,
+								fill: new ol.style.Fill({
+                            color: 'rgba(0,0,0,1)'
+                        }),
+						}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+ },
+			
+{
+			group: 'Playground (motion)',
+			title: 'Water',
+			query: '(nwr["playground"="water"]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			style: function (feature) {
+				var key_regex = /^name$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba( 255, 165, 250 ,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: 'rgba( 255, 165, 250 ,1)',
+					width: 1
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name,
+								offsetX : 0,
+								offsetY : 20,
+								fill: new ol.style.Fill({
+                            color: 'rgba(0,0,0,1)'
+                        }),
+						}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+ },
+{
+			group: 'Playground (motion)',
 			title: 'Playground + ?',
 query: '(nwr["leisure"="playground"][!"playground"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
