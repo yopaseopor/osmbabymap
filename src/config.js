@@ -598,7 +598,7 @@ var config = {
 {
 			group: 'Changing_table',
 			title: 'Changing table ?',
-query: '(nwr[amenity][!"changing_table"]({{bbox}});node(w);nwr[shop][!"changing_table"]({{bbox}});node(w);nwr[office][!"changing_table"]({{bbox}});node(w);nwr[tourism][!"changing_table"]({{bbox}});node(w););out meta;',
+			query: '(nwr[amenity][!"changing_table"]({{bbox}});node(w);nwr[shop][!"changing_table"]({{bbox}});node(w);nwr[office][!"changing_table"]({{bbox}});node(w);nwr[tourism][!"changing_table"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
 			style: function (feature) {
@@ -707,13 +707,12 @@ query: '(nwr[amenity][!"changing_table"]({{bbox}});node(w);nwr[shop][!"changing_
 				});
 				return style;
 			}
-
  },
 			
 {
 			group: 'Changing_table',
 			title: 'Changing table fee ?',
-query: '(nwr[changing_table][!"changing_table:fee]({{bbox}});node(w););out meta;',
+			query: '(nwr[changing_table][!"changing_table:fee]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
 			style: function (feature) {
@@ -747,8 +746,6 @@ query: '(nwr[changing_table][!"changing_table:fee]({{bbox}});node(w););out meta;
 				return style;
 			}
  },
- 
-
 			
 {
 			group: 'Changing_table',
@@ -786,10 +783,7 @@ query: '(nwr[changing_table][!"changing_table:fee]({{bbox}});node(w););out meta;
 				});
 				return style;
 			}
-			
  },
- 
-
 			
 {
 			group: 'Changing_table',
@@ -827,12 +821,7 @@ query: '(nwr[changing_table][!"changing_table:fee]({{bbox}});node(w););out meta;
 				});
 				return style;
 			}
-			
-}
-
  },
- 
-
 			
 {
 			group: 'Changing_table',
