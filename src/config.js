@@ -904,16 +904,16 @@ var config = {
 			title: 'Limited changing table',
 			query: '(nwr["changing_table"="limited"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(243, 156, 18 ,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(243, 156, 18 ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(243, 156, 18 ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -980,16 +980,16 @@ var config = {
 			title: 'Changing table fee',
 			query: '(nwr["changing_table:fee"="yes"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(52, 152, 219 ,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(52, 152, 219,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(52, 152, 219 ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -1018,16 +1018,16 @@ var config = {
 			title: 'No changing table fee',
 			query: '(nwr["changing_table:fee"="no"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 202, 0, 0 ,1)',
+			iconStyle: 'background-color:rgba(125, 206, 160 ,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 202, 0, 0 ,0.4)'
+					color: 'rgba(125, 206, 160 ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 202, 0, 0 ,1)',
+					color: 'rgba(125, 206, 160 ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -1132,16 +1132,16 @@ var config = {
 			title: 'In female toilet',
 			query: '(nwr["changing_table:location"="female_toilet"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba( 186, 74, 0 ,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba( 186, 74, 0 ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba( 186, 74, 0 ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -1170,16 +1170,16 @@ var config = {
 			title: 'In male toilet',
 			query: '(nwr["changing_table:location"="male_toilet"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(223, 255, 0,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(223, 255, 0 ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(223, 255, 0 ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -1208,16 +1208,16 @@ var config = {
 			title: 'In unisex toilet',
 			query: '(nwr["changing_table:location"="unisex_toilet"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(204, 204, 255,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba( 204, 204, 255,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(204, 204, 255 ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -1284,16 +1284,16 @@ var config = {
 			title: 'In a room',
 			query: '(nwr["changing_table:location"="room"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(100, 149, 237,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(100, 149, 237 ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(100, 149, 237 ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -1322,16 +1322,16 @@ var config = {
 			title: 'In sales_area',
 			query: '(nwr["changing_table:location"="sales_area"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(0, 0, 128,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(0, 0, 128,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(0, 0, 128,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
