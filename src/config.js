@@ -448,16 +448,16 @@ var config = {
 			title: 'Indoor Kids area',
 			query: '(nwr["kids_area:indoor"="yes"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba( 175, 122, 197  ,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba( 175, 122, 197  ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba( 175, 122, 197  ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -486,16 +486,16 @@ var config = {
 			title: 'Outdoor Kids area',
 			query: '(nwr["kids_area:outdoor"="yes"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba( 142, 68, 173  ,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba( 142, 68, 173  ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba( 142, 68, 173  ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -524,16 +524,16 @@ var config = {
 			title: 'Supervised Kids area',
 			query: '(nwr["kids_area:supervised"="yes"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba( 84, 153, 199 ,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(84, 153, 199 ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(84, 153, 199 ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -562,16 +562,16 @@ var config = {
 			title: 'Kids area with fee',
 			query: '(nwr["kids_area:fee"="yes"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba( 72, 201, 176 ,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba( 72, 201, 176  ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba( 72, 201, 176  ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -600,16 +600,16 @@ var config = {
 			title: 'Kids area ?',
 			query: '(nwr[amenity][!"kids_area"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(0,0,0 ,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(0,0,0 ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(0,0,0 ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -638,16 +638,16 @@ var config = {
 			title: 'High chair',
 			query: '(nwr[amenity]["highchair"="yes"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(22, 160, 133 ,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(22, 160, 133 ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(22, 160, 133 ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -714,16 +714,16 @@ var config = {
 			title: 'High chair ?',
 			query: '(nwr[amenity][!"highchair"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(0,0,0 ,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(0,0,0 ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(0,0,0 ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -752,16 +752,16 @@ var config = {
 			title: 'Infant bed',
 			query: '(nwr["infant_bed"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba( 82, 190, 128 ,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba( 82, 190, 128  ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba( 82, 190, 128  ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -790,16 +790,16 @@ var config = {
 			title: 'Infant bed ?',
 			query: '(nwr["tourism"="guest_house"][!"infant_bed"]({{bbox}});node(w);nwr["tourism"="hotel"][!"infant_bed"]({{bbox}});node(w);nwr["tourism"="motel"][!"infant_bed"]({{bbox}});node(w);nwr["tourism"="camp_site"][!"infant_bed"]({{bbox}});node(w);nwr["tourism"="hostel"][!"infant_bed"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(0,0,0 ,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(0,0,0 ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(0,0,0 ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
