@@ -939,7 +939,7 @@ var config = {
 			
 {
 			group: 'Changing_table',
-			title: 'Changing table ?',
+			title: 'Changing table ? <b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fchangingtable.json&language=en#welcome">Ampliar</a></b>',
 			query: '(nwr[amenity][!"changing_table"]({{bbox}});node(w);nwr[shop][!"changing_table"]({{bbox}});node(w);nwr[office][!"changing_table"]({{bbox}});node(w);nwr[tourism][!"changing_table"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0,0,0 ,1)',
@@ -1053,7 +1053,7 @@ var config = {
 			
 {
 			group: 'Changing_table',
-			title: 'Changing table fee ?',
+						title: 'Changing table fee ? <b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fchangingtable.json&language=en#welcome">Ampliar</a></b>',
 			query: '(nwr[changing_table][!"changing_table:fee"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0,0,0 ,1)',
@@ -1357,7 +1357,7 @@ var config = {
 			
 {
 			group: 'Changing_table',
-			title: 'Changing table location ?',
+						title: 'Changing table location ? <b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fchangingtable.json&language=en#welcome">Ampliar</a></b>',
 query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0,0,0 ,1)',
@@ -2154,7 +2154,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
  },
 {
 			group: 'Playground (stationary)',
-						title: 'Playground + ?<b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=en#welcome">Ampliar</a></b>',
+						title: 'Playground + ? <b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=en#welcome">Ampliar</a></b>',
 			query: '(nwr["leisure"="playground"][!"playground"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0,0,0 ,1)',
@@ -2761,7 +2761,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
  },
 {
 			group: 'Playground (motion)',
-						title: 'Playground + ?<b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=en#welcome">Ampliar</a></b>',
+						title: 'Playground + ? <b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=en#welcome">Ampliar</a></b>',
 query: '(nwr["leisure"="playground"][!"playground"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0,0,0 ,1)',
