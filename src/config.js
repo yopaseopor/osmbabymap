@@ -1854,16 +1854,16 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			title: 'Map',
 			query: '(nwr["playground"="map"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(233, 30, 99,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(233, 30, 99,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba( 233, 30, 99,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -1892,16 +1892,16 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			title: 'Bridge',
 			query: '(nwr["playground"="bridge"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(171, 71, 188,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(171, 71, 188,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(171, 71, 188,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -1930,16 +1930,16 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			title: 'Funnel_ball',
 			query: '(nwr["playground"="funnel_ball"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(126, 87, 194,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(126, 87, 194,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(126, 87, 194,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -1968,16 +1968,16 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			title: 'Tunnel tube',
 			query: '(nwr["playground"="tunnel_tube"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba( 66, 165, 245 ,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba( 66, 165, 245 ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba( 66, 165, 245 ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -2006,16 +2006,16 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			title: 'Speaking tube',
 			query: '(nwr["playground"="speaking_tube"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(38, 198, 218,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(38, 198, 218,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(38, 198, 218,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -2044,16 +2044,16 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			title: 'Ball pool',
 			query: '(nwr["playground"="ball_pool"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(77, 182, 172,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(77, 182, 172,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(77, 182, 172,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -2082,16 +2082,16 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			title: 'Activity panel',
 			query: '(nwr["playground"="activitypanel"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba( 102, 187, 106 ,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba( 102, 187, 106 ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba( 102, 187, 106 ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -2120,16 +2120,16 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			title: 'Horizontal bar',
 			query: '(nwr["playground"="horizontal_bar"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 202, 0, 0 ,1)',
+			iconStyle: 'background-color:rgba(212, 225, 87,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 202, 0, 0  ,0.4)'
+					color: 'rgba(212, 225, 87 ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 202, 0, 0  ,1)',
+					color: 'rgba(212, 225, 87,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -2233,16 +2233,16 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			title: 'Swing',
 			query: '(nwr["playground"="swing"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(212, 225, 87,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(212, 225, 87,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(212, 225, 87,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -2271,16 +2271,16 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			title: 'Spinning circle',
 			query: '(nwr["playground"="spinning_circle"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(255, 138, 101,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(255, 138, 101,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(255, 138, 101,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -2309,16 +2309,16 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			title: 'Basket swing',
 			query: '(nwr["playground"="basketswing"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(161, 136, 127,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(161, 136, 127,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(161, 136, 127,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -2347,16 +2347,16 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			title: 'Basket rotator',
 			query: '(nwr["playground"="basketrotator"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(109, 76, 65,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(109, 76, 65,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(109, 76, 65,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -2385,16 +2385,16 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			title: 'Aerial rotator',
 			query: '(nwr["playground"="aerialrotator"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba( 236, 64, 122 ,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba( 236, 64, 122 ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba( 236, 64, 122 ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -2423,16 +2423,16 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			title: 'Seesaw',
 			query: '(nwr["playground"="seesaw"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(186, 104, 200,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(186, 104, 200,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(186, 104, 200,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -2461,16 +2461,16 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			title: 'Springy',
 			query: '(nwr["playground"="springy"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba( 179, 157, 219 ,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba( 179, 157, 219 ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba( 179, 157, 219 ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -2499,16 +2499,16 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			title: 'Trampoline',
 			query: '(nwr["playground"="trampoline"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(63, 81, 181,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(63, 81, 181,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(63, 81, 181,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -2537,16 +2537,16 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			title: 'Roundabout',
 			query: '(nwr["playground"="roundabout"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba( 100, 181, 246 ,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba( 100, 181, 246 ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba( 100, 181, 246 ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -2575,16 +2575,16 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			title: 'Cushion',
 			query: '(nwr["playground"="cushion"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(38, 198, 218,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(38, 198, 218,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(38, 198, 218,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -2613,16 +2613,16 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			title: 'Exercise',
 			query: '(nwr["playground"="exercise"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba( 0, 137, 123 ,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba( 0, 137, 123  ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba( 0, 137, 123 ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -2651,16 +2651,16 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			title: 'Zipwire',
 			query: '(nwr["playground"="zipwire"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(104, 159, 56,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(104, 159, 56,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(104, 159, 56,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -2727,16 +2727,16 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			title: 'Water',
 			query: '(nwr["playground"="water"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba(230, 238, 156,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba(230, 238, 156,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba(230, 238, 156,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
