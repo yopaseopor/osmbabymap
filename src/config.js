@@ -3174,7 +3174,7 @@ query: '(nwr["leisure"="playground"][!"playground"]({{bbox}});node(w););out meta
 			group: 'Generic',
 			title: 'Shop=baby_goods',
 			query: '(nwr["shop"="baby_goods"]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
+			iconSrc: imgSrc + 'icones/osmbabymap_logo.svg',
 			iconStyle: 'background-color:rgba(255,255,255,0.4)',
 style: function (feature) {
 				var key_regex = /^name$/
@@ -3189,7 +3189,7 @@ style: function (feature) {
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Icon({
-							src: imgSrc + 'icones/maxspeed_empty.svg',
+							src: imgSrc + 'icones/osmbabymap_logo.svg',
 							scale:0.03
 						}),
 							text: new ol.style.Text({
