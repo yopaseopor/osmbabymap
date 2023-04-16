@@ -334,16 +334,16 @@ var config = {
 			title: 'No info',
 			query: '(nwr[amenity][!"baby_feeding"]({{bbox}});node(w);nwr[shop][!"baby_feeding"]({{bbox}});node(w);nwr[office][!"baby_feeding"]({{bbox}});node(w);nwr[tourism][!"baby_feeding"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
+			iconStyle: 'background-color:rgba( 0, 0, 0 ,1)',
 			style: function (feature) {
 				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba( 255, 165, 250 ,0.4)'
+					color: 'rgba( 0, 0, 0 ,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: 'rgba( 255, 165, 250 ,1)',
+					color: 'rgba( 0, 0, 0 ,1)',
 					width: 1
 				});
 				var style = new ol.style.Style({
@@ -3190,7 +3190,7 @@ style: function (feature) {
 				var style = new ol.style.Style({
 					image: new ol.style.Icon({
 							src: imgSrc + 'icones/osmbabymap_logo.svg',
-							scale:0.03
+							scale:0.12
 						}),
 							text: new ol.style.Text({
 								text: name,
