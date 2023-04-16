@@ -331,7 +331,7 @@ var config = {
 			
 {
 			group: 'Baby feeding',
-			title: 'No info',
+			title: 'No info <b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fbabyfeeding.json&language=en#welcome">Ampliar</a></b>',
 			query: '(nwr[amenity][!"baby_feeding"]({{bbox}});node(w);nwr[shop][!"baby_feeding"]({{bbox}});node(w);nwr[office][!"baby_feeding"]({{bbox}});node(w);nwr[tourism][!"baby_feeding"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 0, 0, 0 ,1)',
