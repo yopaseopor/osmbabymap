@@ -1581,7 +1581,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Structure <img alt="SunwardCohousingPlayStructure2005.jpg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/SunwardCohousingPlayStructure2005.jpg/100px-SunwardCohousingPlayStructure2005.jpg" decoding="async" width="100" height="87" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/SunwardCohousingPlayStructure2005.jpg/150px-SunwardCohousingPlayStructure2005.jpg 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/SunwardCohousingPlayStructure2005.jpg/200px-SunwardCohousingPlayStructure2005.jpg 2x" />',
+			title: 'Structure <br> <img alt="SunwardCohousingPlayStructure2005.jpg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/SunwardCohousingPlayStructure2005.jpg/100px-SunwardCohousingPlayStructure2005.jpg" decoding="async" width="100" height="87" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/SunwardCohousingPlayStructure2005.jpg/150px-SunwardCohousingPlayStructure2005.jpg 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/SunwardCohousingPlayStructure2005.jpg/200px-SunwardCohousingPlayStructure2005.jpg 2x" />',
 			query: '(nwr["playground"="structure"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0, 0, 128 ,1)',
