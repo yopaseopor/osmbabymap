@@ -15,11 +15,15 @@ Developed with [OpenLayers](https://openlayers.org/) library  and with API from 
 
 -Complex queries possibility done by [Ismael Luceno](https://github.com/ismaell)
 
+-New size theme by [Gerald Kogler](https://github.com/geraldo)
+
+-Images of playgrounds extracted from [OSM Wiki] (https://wiki.openstreetmap.org/wiki/Key:playground)
+
 -Additional ideas by [yopaseopor](https://github.com/yopaseopor)
 
 ## Tags
 
-OSM POIS Map shows you all the tags refered to brands and general business.
+OSM Baby Map shows you all the tags refered to things about babies and little children.
 
 
 ## Using
@@ -31,5 +35,5 @@ You can modify the page editing these files:
 
 ## Demo
 
-You can see it [here](https://yopaseopor.github.io/osmpoismap)
+You can see it [here](https://yopaseopor.github.io/osmbabymap)
 
