@@ -1733,7 +1733,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Balance beam<br> <img src="https://" width="100" height="87" />',
+			title: 'Balance beam<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Playground_Balance_beam.jpg/100px-Playground_Balance_beam.jpg" width="100" height="87" />',
 			query: '(nwr["playground"="balancebeam"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0, 128, 128,1)',
@@ -1771,7 +1771,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Playhouse<br> <img src="https://" width="100" height="87" />',
+			title: 'Playhouse<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Playhouse.jpg/100px-Playhouse.jpg" width="100" height="87" />',
 			query: '(nwr["playground"="playhouse"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0, 255, 255,1)',
@@ -1809,7 +1809,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Sand pit<br> <img src="https://" width="100" height="87" />',
+			title: 'Sand pit<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Zandbakw.jpg/100px-Zandbakw.jpg" width="100" height="87" />',
 			query: '(nwr["playground"="sandpit"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0, 128, 0 ,1)',
@@ -1847,7 +1847,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Hopscotch<br> <img src="https://" width="100" height="87" />',
+			title: 'Hopscotch<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Hinkelbaan_tegels.jpg/100px-Hinkelbaan_tegels.jpg" width="100" height="87" />',
 			query: '(nwr["playground"="hopscotch"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0, 255, 0,1)',
@@ -1885,7 +1885,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Teenshelter<br> <img src="https://" width="100" height="87" />',
+			title: 'Teenshelter<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Teen_shelter_near_former_coastguard_lookout%2C_Watchet_-_geograph.org.uk_-_1714960.jpg/100px-Teen_shelter_near_former_coastguard_lookout%2C_Watchet_-_geograph.org.uk_-_1714960.jpg" width="100" height="87" />',
 			query: '(nwr["playground"="teenshelter"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(128, 128, 0 ,1)',
@@ -1923,7 +1923,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Sledding<br> <img src="https://" width="100" height="87" />',
+			title: 'Sledding<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Prangli_lapsed_kelgutamas.jpg/100px-Prangli_lapsed_kelgutamas.jpg" width="100" height="87" />',
 			query: '(nwr["playground"="sledding"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(128, 0, 0,1)',
@@ -1961,7 +1961,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Youth bench<br> <img src="https://" width="100" height="87" />',
+			title: 'Youth bench<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Youth_bench.jpg/100px-Youth_bench.jpg" width="100" height="87" />',
 			query: '(nwr["playground"="youth_bench"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(128, 128, 128,1)',
@@ -1999,7 +1999,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Map<br> <img src="https://" width="100" height="87" />',
+			title: 'Map<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Playground_Map%2C_Washington_Elementary.jpg/100px-Playground_Map%2C_Washington_Elementary.jpg" width="100" height="87" />',
 			query: '(nwr["playground"="map"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(233, 30, 99,1)',
@@ -2037,7 +2037,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Bridge<br> <img src="https://" width="100" height="87" />',
+			title: 'Bridge<br> <img src="https://wiki.openstreetmap.org/w/images/thumb/6/63/Playground_wooden_wobbly_bridge.jpg/100px-Playground_wooden_wobbly_bridge.jpg" width="100" height="87" />',
 			query: '(nwr["playground"="bridge"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(171, 71, 188,1)',
@@ -2075,7 +2075,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Funnel_ball<br> <img src="https://" width="100" height="87" />',
+			title: 'Funnel_ball<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Funnel_ball.jpg/100px-Funnel_ball.jpg" width="100" height="87" />',
 			query: '(nwr["playground"="funnel_ball"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(126, 87, 194,1)',
@@ -2113,7 +2113,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Tunnel tube<br> <img src="https://" width="100" height="87" />',
+			title: 'Tunnel tube<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Example_of_tunnel_tube_on_a_playground.jpg/100px-Example_of_tunnel_tube_on_a_playground.jpg" width="100" height="87" />',
 			query: '(nwr["playground"="tunnel_tube"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 66, 165, 245 ,1)',
@@ -2151,7 +2151,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Speaking tube<br> <img src="https://" width="100" height="87" />',
+			title: 'Speaking tube<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Speaking_Tube_-_Garden_Exhibit_-_NCSM_-_Kolkata_2016-06-02_4046.JPG/100px-Speaking_Tube_-_Garden_Exhibit_-_NCSM_-_Kolkata_2016-06-02_4046.JPG" width="100" height="87" />',
 			query: '(nwr["playground"="speaking_tube"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(38, 198, 218,1)',
