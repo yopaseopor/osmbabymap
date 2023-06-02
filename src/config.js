@@ -1581,7 +1581,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Structure <br> <img alt="SunwardCohousingPlayStructure2005.jpg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/SunwardCohousingPlayStructure2005.jpg/100px-SunwardCohousingPlayStructure2005.jpg" decoding="async" width="100" height="87" />',
+			title: 'Structure <br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/SunwardCohousingPlayStructure2005.jpg/100px-SunwardCohousingPlayStructure2005.jpg" width="100" height="87" />',
 			query: '(nwr["playground"="structure"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0, 0, 128 ,1)',
@@ -1619,7 +1619,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Slide',
+			title: 'Slide<br> <img src="https://wiki.openstreetmap.org/w/images/thumb/9/90/Accessibleplay-Slide.jpg/100px-Accessibleplay-Slide.jpg" width="100" height="87" />',
 			query: '(nwr["playground"="slide"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(128, 0, 128,1)',
@@ -1657,7 +1657,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Climbingframe',
+			title: 'Climbingframe<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/DeimosXL1.jpg/100px-DeimosXL1.jpg" width="100" height="87" />',
 			query: '(nwr["playground"="climbingframe"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(255, 0, 255 ,1)',
@@ -1695,7 +1695,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Climbing wall',
+			title: 'Climbing wall<br> <img src="https://wiki.openstreetmap.org/w/images/thumb/9/91/Playground_climbingwall.jpg/100px-Playground_climbingwall.jpg" width="100" height="87" />',
 			query: '(nwr["playground"="climbingwall"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0, 0, 255,1)',
@@ -1733,7 +1733,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Balance beam',
+			title: 'Balance beam<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="balancebeam"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0, 128, 128,1)',
@@ -1771,7 +1771,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Playhouse',
+			title: 'Playhouse<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="playhouse"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0, 255, 255,1)',
@@ -1809,7 +1809,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Sand pit',
+			title: 'Sand pit<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="sandpit"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0, 128, 0 ,1)',
@@ -1847,7 +1847,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Hopscotch',
+			title: 'Hopscotch<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="hopscotch"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0, 255, 0,1)',
@@ -1885,7 +1885,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Teenshelter',
+			title: 'Teenshelter<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="teenshelter"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(128, 128, 0 ,1)',
@@ -1923,7 +1923,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Sledding',
+			title: 'Sledding<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="sledding"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(128, 0, 0,1)',
@@ -1961,7 +1961,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Youth bench',
+			title: 'Youth bench<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="youth_bench"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(128, 128, 128,1)',
@@ -1999,7 +1999,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Map',
+			title: 'Map<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="map"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(233, 30, 99,1)',
@@ -2037,7 +2037,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Bridge',
+			title: 'Bridge<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="bridge"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(171, 71, 188,1)',
@@ -2075,7 +2075,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Funnel_ball',
+			title: 'Funnel_ball<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="funnel_ball"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(126, 87, 194,1)',
@@ -2113,7 +2113,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Tunnel tube',
+			title: 'Tunnel tube<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="tunnel_tube"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 66, 165, 245 ,1)',
@@ -2151,7 +2151,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Speaking tube',
+			title: 'Speaking tube<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="speaking_tube"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(38, 198, 218,1)',
@@ -2189,7 +2189,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Ball pool',
+			title: 'Ball pool<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="ball_pool"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(77, 182, 172,1)',
@@ -2227,7 +2227,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Activity panel',
+			title: 'Activity panel<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="activitypanel"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 102, 187, 106 ,1)',
@@ -2265,7 +2265,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Horizontal bar',
+			title: 'Horizontal bar<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="horizontal_bar"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(212, 225, 87,1)',
@@ -2414,7 +2414,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (motion)',
-			title: 'Playground',
+			title: 'Playground (Generic)',
 			query: '(nwr["leisure"="playground"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 255, 165, 250 ,1)',
@@ -2452,7 +2452,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (motion)',
-			title: 'Swing',
+			title: 'Swing<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="swing"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(212, 225, 87,1)',
@@ -2490,7 +2490,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (motion)',
-			title: 'Spinning circle',
+			title: 'Spinning circle<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="spinning_circle"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(255, 138, 101,1)',
@@ -2528,7 +2528,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (motion)',
-			title: 'Basket swing',
+			title: 'Basket swing<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="basketswing"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(161, 136, 127,1)',
@@ -2566,7 +2566,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (motion)',
-			title: 'Basket rotator',
+			title: 'Basket rotator<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="basketrotator"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(109, 76, 65,1)',
@@ -2604,7 +2604,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (motion)',
-			title: 'Aerial rotator',
+			title: 'Aerial rotator<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="aerialrotator"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 236, 64, 122 ,1)',
@@ -2642,7 +2642,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (motion)',
-			title: 'Seesaw',
+			title: 'Seesaw<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="seesaw"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(186, 104, 200,1)',
@@ -2680,7 +2680,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (motion)',
-			title: 'Springy',
+			title: 'Springy<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="springy"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 179, 157, 219 ,1)',
@@ -2718,7 +2718,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (motion)',
-			title: 'Trampoline',
+			title: 'Trampoline<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="trampoline"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(63, 81, 181,1)',
@@ -2756,7 +2756,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (motion)',
-			title: 'Roundabout',
+			title: 'Roundabout<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="roundabout"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 100, 181, 246 ,1)',
@@ -2794,7 +2794,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (motion)',
-			title: 'Cushion',
+			title: 'Cushion<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="cushion"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(38, 198, 218,1)',
@@ -2832,7 +2832,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (motion)',
-			title: 'Exercise',
+			title: 'Exercise<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="exercise"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 0, 137, 123 ,1)',
@@ -2870,7 +2870,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (motion)',
-			title: 'Zipwire',
+			title: 'Zipwire<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="zipwire"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(104, 159, 56,1)',
@@ -2908,7 +2908,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (motion)',
-			title: 'Splash pad',
+			title: 'Splash pad<br> <img src="https://" width="100" height="87" />',
 			query: '(nwr["playground"="splash_pad"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 202, 0, 0 ,1)',
@@ -2946,7 +2946,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (motion)',
-			title: 'Water',
+			title: 'Water<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Norden_Archimedische_Schraube.jpg/100px-Norden_Archimedische_Schraube.jpg" width="100" height="87" />',
 			query: '(nwr["playground"="water"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(230, 238, 156,1)',
