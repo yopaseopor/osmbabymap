@@ -178,8 +178,8 @@ var config = {
 				
 		
 		{
-			group: 'Baby feeding',
-			title: 'Yes',
+			group: 'Baby feeding<b> Lactancia <br> Lactància materna',
+			title: 'Yes/Sí',
 			query: '(nwr["baby_feeding"="yes"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0,255,0,1)',
