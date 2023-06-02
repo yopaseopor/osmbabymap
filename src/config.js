@@ -178,7 +178,7 @@ var config = {
 				
 		
 		{
-			group: 'Baby feeding<b> Lactancia <br> Lactància materna',
+			group: 'Baby feeding|Lactancia',
 			title: 'Yes/Sí',
 			query: '(nwr["baby_feeding"="yes"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -216,7 +216,7 @@ var config = {
  },
 			
 {
-			group: 'Baby feeding',
+			group: 'Baby feeding|Lactancia',
 			title: 'No',
 			query: '(nwr["baby_feeding"="no"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -254,8 +254,8 @@ var config = {
  },
 			
 {
-			group: 'Baby feeding',
-			title: 'Room',
+			group: 'Baby feeding|Lactancia',
+			title: 'Room<br>Habitación<br>Habitació',
 			query: '(nwr["baby_feeding"="room"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(147, 229, 255,1)',
@@ -292,8 +292,8 @@ var config = {
  },
 			
 {
-			group: 'Baby feeding',
-			title: 'Lactation',
+			group: 'Baby feeding|Lactancia',
+			title: 'Lactation<br>Lactància',
 			query: '(nwr["baby_feeding"="lactation"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(202, 147, 255,1)',
@@ -330,7 +330,7 @@ var config = {
  },
 			
 {
-			group: 'Baby feeding',
+			group: 'Baby feeding|Lactancia',
 			title: 'No info <b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fbabyfeeding.json&language=en#welcome">Ampliar</a></b>',
 			query: '(nwr[amenity][!"baby_feeding"]({{bbox}});node(w);nwr[shop][!"baby_feeding"]({{bbox}});node(w);nwr[office][!"baby_feeding"]({{bbox}});node(w);nwr[tourism][!"baby_feeding"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -367,8 +367,8 @@ var config = {
 			}
 },
 		{
-			group: 'Baby feeding',
-			title: 'check_date > 2020',
+			group: 'Baby feeding|Lactancia',
+			title: 'check_date > 2020<br>Datos antes 2020<br>Dades abans 2020',
 			query: '(nwr["baby_feeding"][~"^check_date$"~"201[0-9]."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(255,0,0,1)',
@@ -404,8 +404,8 @@ var config = {
 			}
   },
 		{
-			group: 'Baby feeding',
-			title: '2020 < check_date',
+			group: 'Baby feeding|Lactancia',
+			title: '2020 < check_date<br>Datos después 2020<br>Dades després 2020',
 			query: '(nwr["baby_feeding"][~"^check_date$"~"202[0-9]."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0,255,0,1)',
