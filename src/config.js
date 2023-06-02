@@ -331,7 +331,7 @@ var config = {
 			
 {
 			group: 'Baby feeding|Lactancia',
-			title: 'No info <b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fbabyfeeding.json&language=en#welcome">Ampliar</a></b>',
+			title: 'No info <b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fbabyfeeding.json&language=en#welcome">+ info</a></b>',
 			query: '(nwr[amenity][!"baby_feeding"]({{bbox}});node(w);nwr[shop][!"baby_feeding"]({{bbox}});node(w);nwr[office][!"baby_feeding"]({{bbox}});node(w);nwr[tourism][!"baby_feeding"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 0, 0, 0 ,1)',
@@ -442,8 +442,8 @@ var config = {
  },
 			
 {
-			group: 'Amenities',
-			title: 'Kids area',
+			group: 'Amenities|Servicios|Serveis',
+			title: 'Kids area<br>Zona infantil',
 			query: '(nwr["kids_area"="yes"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 37, 180, 2 ,1)',
@@ -481,7 +481,7 @@ var config = {
 			
 {
 			group: 'Amenities',
-			title: 'No Kids area',
+			title: 'No Kids area<br>No zona infantil',
 			query: '(nwr["kids_area"="no"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 202, 0, 0  ,1)',
@@ -519,7 +519,7 @@ var config = {
 			
 {
 			group: 'Amenities',
-			title: 'Indoor Kids area',
+			title: 'Indoor Kids area<br>Zona infantil interior',
 			query: '(nwr["kids_area:indoor"="yes"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 175, 122, 197  ,1)',
@@ -557,7 +557,7 @@ var config = {
 			
 {
 			group: 'Amenities',
-			title: 'Outdoor Kids area',
+			title: 'Outdoor Kids area<br>Zona infantil exterior',
 			query: '(nwr["kids_area:outdoor"="yes"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 142, 68, 173  ,1)',
@@ -595,7 +595,7 @@ var config = {
 			
 {
 			group: 'Amenities',
-			title: 'Supervised Kids area',
+			title: 'Supervised Kids area<br>Zona infantil supervisada',
 			query: '(nwr["kids_area:supervised"="yes"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 84, 153, 199 ,1)',
@@ -633,7 +633,7 @@ var config = {
 			
 {
 			group: 'Amenities',
-			title: 'Kids area with fee',
+			title: 'Kids area with fee<br>Zona infantil de pago<br>de pagament',
 			query: '(nwr["kids_area:fee"="yes"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 72, 201, 176 ,1)',
@@ -671,7 +671,7 @@ var config = {
 			
 {
 			group: 'Amenities',
-			title: 'Kids area ?',
+			title: 'Kids area ?<br>No info',
 			query: '(nwr[amenity][!"kids_area"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0,0,0 ,1)',
@@ -709,7 +709,7 @@ var config = {
 			
 {
 			group: 'Amenities',
-			title: 'High chair',
+			title: 'High chair<br>Trona',
 			query: '(nwr[amenity]["highchair"="yes"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(22, 160, 133 ,1)',
@@ -747,7 +747,7 @@ var config = {
 			
 {
 			group: 'Amenities',
-			title: 'No High chair',
+			title: 'No High chair<br>No trona',
 			query: '(nwr[amenity]["highchair"="no"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 202, 0, 0 ,1)',
@@ -785,7 +785,7 @@ var config = {
 			
 {
 			group: 'Amenities',
-			title: 'High chair ?',
+			title: 'High chair ?<br>No info',
 			query: '(nwr[amenity][!"highchair"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0,0,0 ,1)',
@@ -823,7 +823,7 @@ var config = {
 			
 {
 			group: 'Amenities',
-			title: 'Infant bed',
+			title: 'Infant bed<br>cama<br>llit infantil',
 			query: '(nwr["infant_bed"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 82, 190, 128 ,1)',
@@ -861,7 +861,7 @@ var config = {
 			
 {
 			group: 'Amenities',
-			title: 'Infant bed ?',
+			title: 'Infant bed ?<br>No info',
 			query: '(nwr["tourism"="guest_house"][!"infant_bed"]({{bbox}});node(w);nwr["tourism"="hotel"][!"infant_bed"]({{bbox}});node(w);nwr["tourism"="motel"][!"infant_bed"]({{bbox}});node(w);nwr["tourism"="camp_site"][!"infant_bed"]({{bbox}});node(w);nwr["tourism"="hostel"][!"infant_bed"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0,0,0 ,1)',
@@ -898,8 +898,8 @@ var config = {
  },
 			
 {
-			group: 'Changing_table',
-			title: 'Changing table',
+			group: 'Changing_table|Canviador',
+			title: 'Changing table<br>Cambiador<br>Canviador',
 			query: '(nwr["changing_table"="yes"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 37, 180, 2  ,1)',
@@ -937,7 +937,7 @@ var config = {
 			
 {
 			group: 'Changing_table',
-			title: 'No changing table',
+			title: 'No changing table<br>No cambiador<br>No canviador',
 			query: '(nwr["changing_table"="no"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 202, 0, 0 ,1)',
@@ -975,7 +975,7 @@ var config = {
 			
 {
 			group: 'Changing_table',
-			title: 'Limited changing table',
+			title: 'Limited changing table<br> Limitado<br>Limitat',
 			query: '(nwr["changing_table"="limited"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(243, 156, 18 ,1)',
@@ -1013,7 +1013,7 @@ var config = {
 			
 {
 			group: 'Changing_table',
-			title: 'Changing table ? <br><b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fchangingtable.json&language=en#welcome">Ampliar</a></b>',
+			title: 'Changing table ? <br><b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fchangingtable.json&language=en#welcome">+ info</a></b>',
 			query: '(nwr[amenity][!"changing_table"]({{bbox}});node(w);nwr[shop][!"changing_table"]({{bbox}});node(w);nwr[office][!"changing_table"]({{bbox}});node(w);nwr[tourism][!"changing_table"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0,0,0 ,1)',
@@ -1127,7 +1127,7 @@ var config = {
 			
 {
 			group: 'Changing_table',
-						title: 'Changing table fee ? <br><b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fchangingtable.json&language=en#welcome">Ampliar</a></b>',
+			title: 'Changing table fee ? <br><b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fchangingtable.json&language=en#welcome">+ info</a></b>',
 			query: '(nwr[changing_table][!"changing_table:fee"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0,0,0 ,1)',
@@ -1431,7 +1431,7 @@ var config = {
 			
 {
 			group: 'Changing_table',
-						title: 'Changing table location ? <br><b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fchangingtable.json&language=en#welcome">Ampliar</a></b>',
+						title: 'Changing table location ? <br><b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fchangingtable.json&language=en#welcome">+ info</a></b>',
 query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0,0,0 ,1)',
@@ -2302,7 +2302,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
  },
 {
 			group: 'Playground (stationary)',
-						title: 'Playground + ? <br><b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=en#welcome">Ampliar</a></b>',
+						title: 'Playground + ? <br><b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=en#welcome">+ info</a></b>',
 			query: '(nwr["leisure"="playground"][!"playground"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0,0,0 ,1)',
@@ -2983,7 +2983,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
  },
 {
 			group: 'Playground (motion)',
-						title: 'Playground + ? <br><b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=en#welcome">Ampliar</a></b>',
+						title: 'Playground + ? <br><b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=en#welcome">+ info</a></b>',
 query: '(nwr["leisure"="playground"][!"playground"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0,0,0 ,1)',
