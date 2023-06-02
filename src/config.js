@@ -480,7 +480,7 @@ var config = {
  },
 			
 {
-			group: 'Amenities',
+			group: 'Amenities|Servicios|Serveis',
 			title: 'No Kids area<br>No zona infantil',
 			query: '(nwr["kids_area"="no"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -518,7 +518,7 @@ var config = {
  },
 			
 {
-			group: 'Amenities',
+			group: 'Amenities|Servicios|Serveis',
 			title: 'Indoor Kids area<br>Zona infantil interior',
 			query: '(nwr["kids_area:indoor"="yes"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -556,7 +556,7 @@ var config = {
  },
 			
 {
-			group: 'Amenities',
+			group: 'Amenities|Servicios|Serveis',
 			title: 'Outdoor Kids area<br>Zona infantil exterior',
 			query: '(nwr["kids_area:outdoor"="yes"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -594,7 +594,7 @@ var config = {
  },
 			
 {
-			group: 'Amenities',
+			group: 'Amenities|Servicios|Serveis',
 			title: 'Supervised Kids area<br>Zona infantil supervisada',
 			query: '(nwr["kids_area:supervised"="yes"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -632,7 +632,7 @@ var config = {
  },
 			
 {
-			group: 'Amenities',
+			group: 'Amenities|Servicios|Serveis',
 			title: 'Kids area with fee<br>Zona infantil de pago<br>de pagament',
 			query: '(nwr["kids_area:fee"="yes"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -670,7 +670,7 @@ var config = {
  },
 			
 {
-			group: 'Amenities',
+			group: 'Amenities|Servicios|Serveis',
 			title: 'Kids area ?<br>No info',
 			query: '(nwr[amenity][!"kids_area"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -708,7 +708,7 @@ var config = {
  },
 			
 {
-			group: 'Amenities',
+			group: 'Amenities|Servicios|Serveis',
 			title: 'High chair<br>Trona',
 			query: '(nwr[amenity]["highchair"="yes"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -746,7 +746,7 @@ var config = {
  },
 			
 {
-			group: 'Amenities',
+			group: 'Amenities|Servicios|Serveis',
 			title: 'No High chair<br>No trona',
 			query: '(nwr[amenity]["highchair"="no"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -784,7 +784,7 @@ var config = {
  },
 			
 {
-			group: 'Amenities',
+			group: 'Amenities|Servicios|Serveis',
 			title: 'High chair ?<br>No info',
 			query: '(nwr[amenity][!"highchair"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -822,7 +822,7 @@ var config = {
  },
 			
 {
-			group: 'Amenities',
+			group: 'Amenities|Servicios|Serveis',
 			title: 'Infant bed<br>cama<br>llit infantil',
 			query: '(nwr["infant_bed"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -860,7 +860,7 @@ var config = {
  },
 			
 {
-			group: 'Amenities',
+			group: 'Amenities|Servicios|Serveis',
 			title: 'Infant bed ?<br>No info',
 			query: '(nwr["tourism"="guest_house"][!"infant_bed"]({{bbox}});node(w);nwr["tourism"="hotel"][!"infant_bed"]({{bbox}});node(w);nwr["tourism"="motel"][!"infant_bed"]({{bbox}});node(w);nwr["tourism"="camp_site"][!"infant_bed"]({{bbox}});node(w);nwr["tourism"="hostel"][!"infant_bed"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -898,7 +898,7 @@ var config = {
  },
 			
 {
-			group: 'Changing_table|Canviador',
+			group: 'Changing_table|Cambiador|Canviador',
 			title: 'Changing table<br>Cambiador<br>Canviador',
 			query: '(nwr["changing_table"="yes"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -936,7 +936,7 @@ var config = {
  },
 			
 {
-			group: 'Changing_table',
+			group: 'Changing_table|Cambiador|Canviador',
 			title: 'No changing table<br>No cambiador<br>No canviador',
 			query: '(nwr["changing_table"="no"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -974,7 +974,7 @@ var config = {
  },
 			
 {
-			group: 'Changing_table',
+			group: 'Changing_table|Cambiador|Canviador',
 			title: 'Limited changing table<br> Limitado<br>Limitat',
 			query: '(nwr["changing_table"="limited"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1012,7 +1012,7 @@ var config = {
  },
 			
 {
-			group: 'Changing_table',
+			group: 'Changing_table|Cambiador|Canviador',
 			title: 'Changing table ? <br><b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fchangingtable.json&language=en#welcome">+ info</a></b>',
 			query: '(nwr[amenity][!"changing_table"]({{bbox}});node(w);nwr[shop][!"changing_table"]({{bbox}});node(w);nwr[office][!"changing_table"]({{bbox}});node(w);nwr[tourism][!"changing_table"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1050,7 +1050,7 @@ var config = {
  },
 			
 {
-			group: 'Changing_table',
+			group: 'Changing_table|Cambiador|Canviador',
 			title: 'Changing table fee',
 			query: '(nwr["changing_table:fee"="yes"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1088,7 +1088,7 @@ var config = {
  },
 			
 {
-			group: 'Changing_table',
+			group: 'Changing_table|Cambiador|Canviador',
 			title: 'No changing table fee',
 			query: '(nwr["changing_table:fee"="no"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1126,7 +1126,7 @@ var config = {
  },
 			
 {
-			group: 'Changing_table',
+			group: 'Changing_table|Cambiador|Canviador',
 			title: 'Changing table fee ? <br><b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fchangingtable.json&language=en#welcome">+ info</a></b>',
 			query: '(nwr[changing_table][!"changing_table:fee"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1164,7 +1164,7 @@ var config = {
  },
 			
 {
-			group: 'Changing_table',
+			group: 'Changing_table|Cambiador|Canviador',
 			title: 'In wheelchair toilet',
 			query: '(nwr["changing_table:location"="wheelchair_toilet"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1202,7 +1202,7 @@ var config = {
  },
 			
 {
-			group: 'Changing_table',
+			group: 'Changing_table|Cambiador|Canviador',
 			title: 'In female toilet',
 			query: '(nwr["changing_table:location"="female_toilet"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1240,7 +1240,7 @@ var config = {
  },
 			
 {
-			group: 'Changing_table',
+			group: 'Changing_table|Cambiador|Canviador',
 			title: 'In male toilet',
 			query: '(nwr["changing_table:location"="male_toilet"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1278,7 +1278,7 @@ var config = {
  },
 			
 {
-			group: 'Changing_table',
+			group: 'Changing_table|Cambiador|Canviador',
 			title: 'In unisex toilet',
 			query: '(nwr["changing_table:location"="unisex_toilet"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1316,7 +1316,7 @@ var config = {
  },
 			
 {
-			group: 'Changing_table',
+			group: 'Changing_table|Cambiador|Canviador',
 			title: 'In a dedicated room',
 			query: '(nwr["changing_table:location"="dedicated_room"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1354,7 +1354,7 @@ var config = {
  },
 			
 {
-			group: 'Changing_table',
+			group: 'Changing_table|Cambiador|Canviador',
 			title: 'In a room',
 			query: '(nwr["changing_table:location"="room"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1392,7 +1392,7 @@ var config = {
  },
 			
 {
-			group: 'Changing_table',
+			group: 'Changing_table|Cambiador|Canviador',
 			title: 'In sales_area',
 			query: '(nwr["changing_table:location"="sales_area"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1430,7 +1430,7 @@ var config = {
  },
 			
 {
-			group: 'Changing_table',
+			group: 'Changing_table|Cambiador|Canviador',
 						title: 'Changing table location ? <br><b><a href="https://mapcomplete.osm.be/theme.html?userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fchangingtable.json&language=en#welcome">+ info</a></b>',
 query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1467,7 +1467,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			}
   },
 		{
-			group: 'Changing_table',
+			group: 'Changing_table|Cambiador|Canviador',
 			title: 'check_date > 2020',
 			query: '(nwr["changing_table"="yes"][~"^check_date$"~"201[0-9]."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1504,7 +1504,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			}
   },
 		{
-			group: 'Changing_table',
+			group: 'Changing_table|Cambiador|Canviador',
 			title: '2020 < check_date',
 			query: '(nwr["changing_table"="yes"][~"^check_date$"~"202[0-9]."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
