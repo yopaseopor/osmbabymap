@@ -1657,7 +1657,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Climbingframe<br>tela de araña<br>xarxa <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/DeimosXL1.jpg/100px-DeimosXL1.jpg" width="100" />',
+			title: 'Climbingframe<br>tela de araña<br>xarxa<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/DeimosXL1.jpg/100px-DeimosXL1.jpg" width="100" />',
 			query: '(nwr["playground"="climbingframe"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(255, 0, 255 ,1)',
@@ -1695,7 +1695,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Climbing wall<br>muro de escalada <img src="https://wiki.openstreetmap.org/w/images/thumb/9/91/Playground_climbingwall.jpg/100px-Playground_climbingwall.jpg" width="100" />',
+			title: 'Climbing wall<br>muro de escalada<br><img src="https://wiki.openstreetmap.org/w/images/thumb/9/91/Playground_climbingwall.jpg/100px-Playground_climbingwall.jpg" width="100" />',
 			query: '(nwr["playground"="climbingwall"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0, 0, 255,1)',
@@ -1847,7 +1847,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Hopscotch<br>Rayuela<br>Xarranca <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Hinkelbaan_tegels.jpg/100px-Hinkelbaan_tegels.jpg" width="100" />',
+			title: 'Hopscotch<br>Rayuela<br>Xarranca<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Hinkelbaan_tegels.jpg/100px-Hinkelbaan_tegels.jpg" width="100" />',
 			query: '(nwr["playground"="hopscotch"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(0, 255, 0,1)',
@@ -1885,7 +1885,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Teenshelter<br>Refugio <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Teen_shelter_near_former_coastguard_lookout%2C_Watchet_-_geograph.org.uk_-_1714960.jpg/100px-Teen_shelter_near_former_coastguard_lookout%2C_Watchet_-_geograph.org.uk_-_1714960.jpg" width="100" />',
+			title: 'Teenshelter<br>Refugio<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Teen_shelter_near_former_coastguard_lookout%2C_Watchet_-_geograph.org.uk_-_1714960.jpg/100px-Teen_shelter_near_former_coastguard_lookout%2C_Watchet_-_geograph.org.uk_-_1714960.jpg" width="100" />',
 			query: '(nwr["playground"="teenshelter"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(128, 128, 0 ,1)',
@@ -2075,7 +2075,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Funnel_ball<br>Cesta y puntos <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Funnel_ball.jpg/100px-Funnel_ball.jpg" width="100" />',
+			title: 'Funnel_ball<br>Cesta y puntos<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Funnel_ball.jpg/100px-Funnel_ball.jpg" width="100" />',
 			query: '(nwr["playground"="funnel_ball"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(126, 87, 194,1)',
@@ -2227,7 +2227,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Activity panel<br>Panel actividades<br>Panell activitats <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Szwedy_-_plac_zabaw_-_k%C3%B3%C5%82ko_i_krzy%C5%BCyk.jpg/100px-Szwedy_-_plac_zabaw_-_k%C3%B3%C5%82ko_i_krzy%C5%BCyk.jpg" width="100" />',
+			title: 'Activity panel<br>Panel actividades<br>Panell activitats<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Szwedy_-_plac_zabaw_-_k%C3%B3%C5%82ko_i_krzy%C5%BCyk.jpg/100px-Szwedy_-_plac_zabaw_-_k%C3%B3%C5%82ko_i_krzy%C5%BCyk.jpg" width="100" />',
 			query: '(nwr["playground"="activitypanel"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 102, 187, 106 ,1)',
@@ -2265,7 +2265,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (stationary)',
-			title: 'Horizontal bar<br>Barra horitzontal<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Szwedy_-_plac_zabaw_-_k%C3%B3%C5%82ko_i_krzy%C5%BCyk.jpg/100px-Szwedy_-_plac_zabaw_-_k%C3%B3%C5%82ko_i_krzy%C5%BCyk.jpg" width="100" />',
+			title: 'Horizontal bar<br>Barra horitzontal<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Rekstok.JPG/100px-Rekstok.JPG" width="100" />',
 			query: '(nwr["playground"="horizontal_bar"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(212, 225, 87,1)',
@@ -2452,7 +2452,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (motion)',
-			title: 'Swing<br>Columpio<br>Gronxador <img src="https://wiki.openstreetmap.org/w/images/thumb/6/6c/Accessibleplay-Swing.jpg/100px-Accessibleplay-Swing.jpg" width="100" />',
+			title: 'Swing<br>Columpio<br>Gronxador<br> <img src="https://wiki.openstreetmap.org/w/images/thumb/6/6c/Accessibleplay-Swing.jpg/100px-Accessibleplay-Swing.jpg" width="100" />',
 			query: '(nwr["playground"="swing"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(212, 225, 87,1)',
@@ -2642,7 +2642,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (motion)',
-			title: 'Seesaw<br>Balancí <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Seesaw-aa.jpg/100px-Seesaw-aa.jpg" width="100" />',
+			title: 'Seesaw<br>Balancí<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Seesaw-aa.jpg/100px-Seesaw-aa.jpg" width="100" />',
 			query: '(nwr["playground"="seesaw"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(186, 104, 200,1)',
@@ -2832,7 +2832,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (motion)',
-			title: 'Exercise<br>Ejercicios<br>Exercici<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/H%C3%BCpfkissen.jpg/100px-H%C3%BCpfkissen.jpg" width="100" />',
+			title: 'Exercise<br>Ejercicios<br>Exercici<br> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Outdoor_gym_in_Parque_de_Bateria%2C_Torremolinos.JPG/100px-Outdoor_gym_in_Parque_de_Bateria%2C_Torremolinos.JPG" width="100" />',
 			query: '(nwr["playground"="exercise"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 0, 137, 123 ,1)',
@@ -2870,7 +2870,7 @@ query: '(nwr[changing_table][!"changing_table:location"]({{bbox}});node(w););out
 			
 {
 			group: 'Playground (motion)',
-			title: 'Zipwire<br>Tirolina <img src="https://wiki.openstreetmap.org/w/images/thumb/2/21/Ropeway_play.jpg/100px-Ropeway_play.jpg" width="100" />',
+			title: 'Zipwire<br>Tirolina<br> <img src="https://wiki.openstreetmap.org/w/images/thumb/2/21/Ropeway_play.jpg/100px-Ropeway_play.jpg" width="100" />',
 			query: '(nwr["playground"="zipwire"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba(104, 159, 56,1)',
