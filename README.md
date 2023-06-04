@@ -17,7 +17,7 @@ Developed with [OpenLayers](https://openlayers.org/) library  and with API from 
 
 -New size theme by [Gerald Kogler](https://github.com/geraldo)
 
--Images of playgrounds extracted from [OSM Wiki] (https://wiki.openstreetmap.org/wiki/Key:playground)
+-Images of playgrounds extracted from [OSM Wiki](https://wiki.openstreetmap.org/wiki/Key:playground)
 
 -Additional ideas by [yopaseopor](https://github.com/yopaseopor)
 
