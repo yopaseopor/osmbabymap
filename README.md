@@ -66,6 +66,26 @@ OpenStreetMap (en adelante [OSM](https://www.openstreetmap.org)) es una base de 
 - Las modificaciones se verán en breve en el mapa mundial y no sólo servirán para ese mapa sino para todos los proyectos de OSM (imaginemos estadísticas sobre cambiadores en una zona determinada, por ejemplo)
 [OSM](https://www.openstreetmap.org) busca el conocimiento local para mapear y describir elementos, pero un conocimiento específico tan concreto es muy difícil de obtener si la población específica interesada no colabora. ¿Nos ayudas?
 
+## ¿Cómo os ayudo? ¿Cómo lo uso?
+
+### Ver
+
+- Para ver elementos elige primero la zona determinada (cuanto menos abarques más rápida será la respuesta).
+- Entonces una vez te hayas acercado suficientemente eliges qué quieres encontrar (se recomienda no utilizar más de una opción a la vez). Ejemplo: https://yopaseopor.github.io/osmbabymap/#map=15.386/41.22192/1.72419/0&Playground%201|Parque|Parc=10000000000000000000000
+- Si no lo encuentras puede que no haya o nos puedas ayudar a completar la información
+
+### Para contribuir/completar información
+
+1. [Regístrate en OpenStreetMap](https://www.openstreetmap.org/user/new) .
+2. [Vuelve a nuestro mapa](https://yopaseopor.github.io/osmbabymap)
+3. Acércate lo máximo posible
+4. Haz clic con el botón izquierdo/toca suavemente aquella zona a la que quieres añadir esta información
+5. Elige a qué quieres contribuir (menú completar cono:) , te llevará a [Mapcomplete](https://mapcomplete.osm.be/theme.html?z=7.2&lat=41.67678&lon=1.936948&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=es&layer-range=false)
+6. [Entra](https://mapcomplete.osm.be/theme.html?z=10.9&lat=41.41065&lon=2.180159&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=es&layer-range=false#menu:settings) . , 
+7. contesta a las preguntas... y ya está.
+
+En breve tus contribuciones saldrán al mapa. Muchas gracias por dar más información que nos puede ayudar a todos/as.
+
 -----------------------------------
 
 # English
@@ -90,6 +110,26 @@ OpenStreetMap (hereinafter [OSM](https://www.openstreetmap.org)) is a global dat
  
 - Modifications will be seen shortly on the world map and will not only work for that map but for all OSM projects (I have a dream, imagine statistics for lactation rooms in a certain area, for example)
 [OSM](https://www.openstreetmap.org) seeks local knowledge to map and describe features, but such concrete specific knowledge is very difficult to obtain if the specific population concerned does not help us. Please, can you help us?
+
+## How do I help you? How do I use it?
+
+### Find
+
+- To find items, first choose the determined area (the less you cover, the faster the response will be).
+- Then once you have zoomed in enough you choose what you want to find (it is recommended not to use more than one option at a time). Example: https://yopaseopor.github.io/osmbabymap/#map=15.386/41.22192/1.72419/0&Playground%201|Parque|Parc=10000000000000000000000
+- If you can't find it, it may not exist or you can help us complete the information
+
+### To contribute/complete information
+
+1. [Sign up for OpenStreetMap](https://www.openstreetmap.org/user/new) .
+2. [Go back to our map](https://yopaseopor.github.io/osmbabymap)
+3. Get as close as possible
+4. Left-click/tap the area you want to add this information to
+5. Choose what you want to contribute to (menu complete cone:), it will take you to [Mapcomplete](https://mapcomplete.osm.be/theme.html?z=7.2&lat=41.67678&lon=1.936948&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=en&layer-range=false)
+6. [Entra](https://mapcomplete.osm.be/theme.html?z=10.9&lat=41.41065&lon=2.180159&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=en&layer-range=false#menu:settings) . ,  . ,
+7. answer the questions... and that's it.
+
+Soon your contributions will be on the map. Thank you very much for providing more information that can help us all.
 
 
 # Code readme
