@@ -36,7 +36,7 @@ OSM cerca el coneixement local per a mapejar i descriure elements però un conei
 3. Apropa't el màxim possible 
 4. Fes clic amb el botó esquerre/toca suaument aquella zona on vols afegir aquesta informació
 5. Tria a qué vols contribuir (menú completar con:) , et portarà a [Mapcomplete](https://mapcomplete.osm.be/theme.html?z=7.2&lat=41.67678&lon=1.936948&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=ca&layer-range=false)
-6. [Entra] (https://mapcomplete.osm.be/theme.html?z=10.9&lat=41.41065&lon=2.180159&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=ca&layer-range=false#menu:settings). , 
+6. [Entra](https://mapcomplete.osm.be/theme.html?z=10.9&lat=41.41065&lon=2.180159&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=ca&layer-range=false#menu:settings). , 
 7. contesta les preguntes... i ja està. 
 
 En breu les teves contribucions sortiran al mapa. Moltes gràcies per donar més informació que ens pot ajudar a tots/es.
