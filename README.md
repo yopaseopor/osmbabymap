@@ -35,7 +35,7 @@ OSM cerca el coneixement local per a mapejar i descriure elements però un conei
 2. [Torna al nostre mapa](https://yopaseopor.github.io/osmbabymap) 
 3. Apropa't el màxim possible 
 4. Fes clic amb el botó esquerre/toca suaument aquella zona on vols afegir aquesta informació
-5. Tria a qué vols contribuir (menú completar con:) , et portarà a [Mapcomplete](https://mapcomplete.osm.be/theme.html?z=7.2&lat=41.67678&lon=1.936948&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=ca&layer-range=false)
+5. Tria a qué vols contribuir (menú "Completar con":) , et portarà a [Mapcomplete](https://mapcomplete.osm.be/theme.html?z=7.2&lat=41.67678&lon=1.936948&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=ca&layer-range=false)
 6. [Entra](https://mapcomplete.osm.be/theme.html?z=10.9&lat=41.41065&lon=2.180159&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=ca&layer-range=false#menu:settings). , 
 7. contesta les preguntes... i ja està. 
 
@@ -80,7 +80,7 @@ OpenStreetMap (en adelante [OSM](https://www.openstreetmap.org)) es una base de 
 2. [Vuelve a nuestro mapa](https://yopaseopor.github.io/osmbabymap)
 3. Acércate lo máximo posible
 4. Haz clic con el botón izquierdo/toca suavemente aquella zona a la que quieres añadir esta información
-5. Elige a qué quieres contribuir (menú completar cono:) , te llevará a [Mapcomplete](https://mapcomplete.osm.be/theme.html?z=7.2&lat=41.67678&lon=1.936948&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=es&layer-range=false)
+5. Elige a qué quieres contribuir (menú "Completar con":) , te llevará a [Mapcomplete](https://mapcomplete.osm.be/theme.html?z=7.2&lat=41.67678&lon=1.936948&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=es&layer-range=false)
 6. [Entra](https://mapcomplete.osm.be/theme.html?z=10.9&lat=41.41065&lon=2.180159&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=es&layer-range=false#menu:settings) . , 
 7. contesta a las preguntas... y ya está.
 
@@ -125,7 +125,7 @@ OpenStreetMap (hereinafter [OSM](https://www.openstreetmap.org)) is a global dat
 2. [Go back to our map](https://yopaseopor.github.io/osmbabymap)
 3. Get as close as possible
 4. Left-click/tap the area you want to add this information to
-5. Choose what you want to contribute to (menu complete cone:), it will take you to [Mapcomplete](https://mapcomplete.osm.be/theme.html?z=7.2&lat=41.67678&lon=1.936948&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=en&layer-range=false)
+5. Choose what you want to contribute to ("Completar con" menu:), it will take you to [Mapcomplete](https://mapcomplete.osm.be/theme.html?z=7.2&lat=41.67678&lon=1.936948&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=en&layer-range=false)
 6. [Entra](https://mapcomplete.osm.be/theme.html?z=10.9&lat=41.41065&lon=2.180159&userlayout=https%3A%2F%2Fraw.githubusercontent.com%2Fyopaseopor%2Fmcquests%2Fmain%2Fplayground_types.json&language=en&layer-range=false#menu:settings) . ,  . ,
 7. answer the questions... and that's it.
 
